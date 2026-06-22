@@ -1,0 +1,40 @@
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header { 
+    background: #3d00b0ad;
+     color: white; 
+     padding: 1rem;
+     }
+.nav  { 
+    display: flex;
+     justify-content: space-around; 
+      }
+.nav a { color: white;
+    text-decoration: none; 
+}
+
+.hero { text-align: center; 
+    padding: 2rem; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 2rem;
+}
+.card { background: white; padding: 1rem; border: 1px solid #ddd; text-align: center; }
+
+.button {  padding: 1rem;
+     border-radius: 4px;
+      border: none; 
+       background-color:#3d00b0;
+       color:white; 
+    }
+
+footer { background: #333; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
